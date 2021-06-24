@@ -1,0 +1,70 @@
+---
+title: "Titulo"
+subtitle: ""
+author: "Jorge Leonardo López Martínez"
+institute: ""
+date: "`r format(Sys.time(), '%d %B, %Y')`"
+output:
+  xaringan::moon_reader:
+    css: [default, css/Estilo.css, css/cc-fonts.css, css/Cajitas.css, Fuente.css]
+---
+
+```{r Paquetes usados, eval = FALSE, echo = FALSE}
+
+pacman::p_load()
+```
+
+```{css, echo = FALSE}
+pre {
+  max-width: 100%;
+  overflow-x: scroll;
+}
+
+.inverse {
+  background-color: #272822;
+  color: #d6d6d6;
+  text-shadow: 0 0 20px #333;
+}
+```
+
+<section style="text-align: center;"><h2>Contenido</h4></section>
+
+<table class="table table-striped table-hover ">
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>Contenido 1</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Contenido 2</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>Contenido 3</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>Contenido 4</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>Contenido 5</td>
+    </tr>
+  </tbody>
+</table>
+
+---
+
+
+
+---
+
+class: center, middle, inverse
+
+<span class = "cc">
+<!-- Key: a: SA, b: BY, c: CC Circle, d: ND, n: NC, m: Sampling, s: Share, r: Remix, C: CC Full Logo -->
+C bn
+</span>
+
+[Licencia CC BY-NC](https://creativecommons.org/licenses/by-nc/4.0/)
