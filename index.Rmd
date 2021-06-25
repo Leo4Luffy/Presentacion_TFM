@@ -21,8 +21,7 @@ meta() %>%
   meta_social(
     title = "Titulo",
     description = paste(
-      'Presentación del trabajo de fin de máster.',
-      'Presentada en Barcelona en el año 2022.'
+      'Presentación del trabajo de fin de máster.'
     )
   )
 ```
