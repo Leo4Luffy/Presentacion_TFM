@@ -6,12 +6,30 @@ institute: ""
 date: "`r format(Sys.time(), '%d %B, %Y')`"
 output:
   xaringan::moon_reader:
-    css: [default, css/Estilo.css, css/cc-fonts.css, css/Cajitas.css, Fuente.css]
+    css: [default, css/Estilo.css, css/cc-fonts.css, css/Cajitas.css]
 ---
 
-```{r Paquetes usados, eval = FALSE, echo = FALSE}
+```{r Paquetes usados, eval = TRUE, echo = FALSE}
 
-pacman::p_load()
+pacman::p_load(metathis, xaringanExtra)
+```
+
+```{r metathis, eval = TRUE, echo = FALSE}
+
+meta() %>%
+  meta_name('github-repo' = 'Leo4Luffy/Presentacion_TFM') %>% 
+  meta_social(
+    title = "Titulo",
+    description = paste(
+      'Presentación del trabajo de fin de máster.',
+      'Presentada en Barcelona en el año 2022.'
+    )
+  )
+```
+
+```{r xaringanExtra-share-again, eval = TRUE, echo = FALSE}
+
+xaringanExtra::use_share_again()
 ```
 
 ```{css, echo = FALSE}
