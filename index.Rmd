@@ -3,7 +3,7 @@ title: "Titulo"
 subtitle: "Subtitulo"
 output:
   xaringan::moon_reader:
-    css: [default, css/Fuente.css, css/cc-fonts.css, css/Cajitas.css, css/lexis.css, css/lexis-fonts.css]
+    css: [default, css/Fuente.css, css/cc-fonts.css, css/Cajitas.css]
     lib_dir: libs
     seal: false
     nature:
@@ -11,14 +11,15 @@ output:
       highlightLines: true
       countIncrementalSlides: false
       slideNumberFormat: "%current%<br>"
-      ratio: "16:9"
 ---
+name: title-slide
+class: primary
 
 ```{r Paquetes usados y general, eval = TRUE, echo = FALSE}
 
 pacman::p_load(metathis, xaringanExtra, fontawesome)
 
-workshop_day <- format(as.Date("2021-07-09"), format="%B %d %Y")
+workshop_day <- format(as.Date("2022-06-01"), format = "%B/%d/%Y")
 
 # Habilita la capacidad de mostrar todas las diapositivas en una vista general de mosaico presionando "o"
 xaringanExtra::use_tile_view()
@@ -55,42 +56,22 @@ meta() %>%
 xaringanExtra::use_share_again()
 ```
 
-```{css, echo = FALSE}
-pre {
-  max-width: 100%;
-  overflow-x: scroll;
-}
-
-.inverse {
-  background-color: #272822;
-  color: #d6d6d6;
-  text-shadow: 0 0 20px #333;
-}
-```
-
----
-name: title-slide
-class: primary
-
-
 #.fancy[`r rmarkdown::metadata$title`] 
 
 ###.fancy[`r rmarkdown::metadata$subtitle`]
 
-
+<br>
+<br>
+<br>
 <br>
 
+Jorge Leonardo López Martínez
 
-Fabio Votta
-
-[`r fa(name = "twitter", fill = "black")` @favstats](http://twitter.com/favstats)<br>
-[`r fa(name = "github", fill = "black")` @favstats](http://github.com/favstats)<br>
-[`r fa(name = "link", fill = "black")` favstats.eu](https://www.favstats.eu)
-
+[`r fa(name = "github", fill = "black")` Leo4Luffy](https://github.com/Leo4Luffy)<br>
 
 `r workshop_day`
 
-.fifty[Link to slides: [favstats.github.io/ds3_r_intro](https://favstats.github.io/ds3_r_intro)]
+.fifty[Acceso a la presentación [aquí](https://github.com/Leo4Luffy/Presentacion_TFM)]
 
 ---
 
