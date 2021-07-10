@@ -71,9 +71,14 @@ Jorge Leonardo López Martínez
 
 `r workshop_day`
 
-.fifty[Acceso a la presentación [aquí](https://github.com/Leo4Luffy/Presentacion_TFM)]
+<br>
+<br>
+
+.fifty[Acceso al repositorio de la presentación [aquí](https://github.com/Leo4Luffy/Presentacion_TFM)]
 
 ---
+
+
 
 ---
 
